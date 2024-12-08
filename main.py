@@ -8,3 +8,12 @@ print(num_set)
 num_set.pop()
 print("after removing the first element from the said set")
 print(num_set,"\n")
+yahya1 = {"green", "blue"}
+yahya2 = {"green", "red"}
+print("oringinal set elements:")
+print(yahya1)
+print(yahya2)
+print("\nintersection of two said sets:")
+setz = yahya1.intersection(yahya2)
+print(setz)
+print(yahya1.union(yahya2))
